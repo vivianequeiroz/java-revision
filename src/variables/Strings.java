@@ -14,8 +14,18 @@ public class Strings {
 		// replace does not modify the original String
 		// in Java Strings are immutable
 		System.out.println(message);
-		System.out.println(message.trim());
 		// remove unecessary blank spaces
+		System.out.println(message.trim());
+
+		//Escaping characters 
+		System.out.println("Hello\"world\"");
+		System.out.println("c:\\Windows\\Users");
+		// break a line
+		ystem.out.println("c:\nWindows\\Users");
+		// insert a tab 
+		ystem.out.println("c:\tWindows\\Users");
+
+
 		
 		
 	}
