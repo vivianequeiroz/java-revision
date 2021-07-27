@@ -1,4 +1,5 @@
-package variables;
+package strings;
+
 
 public class Strings {
 
@@ -14,20 +15,17 @@ public class Strings {
 		// replace does not modify the original String
 		// in Java Strings are immutable
 		System.out.println(message);
-		// remove unecessary blank spaces
+		// remove unnecessary blank spaces
 		System.out.println(message.trim());
 
 		//Escaping characters 
 		System.out.println("Hello\"world\"");
 		System.out.println("c:\\Windows\\Users");
 		// break a line
-		ystem.out.println("c:\nWindows\\Users");
+		System.out.println("c:\nWindows\\Users");
 		// insert a tab 
-		ystem.out.println("c:\tWindows\\Users");
-
-
-		
-		
+		System.out.println("c:\tWindows\\Users");
 	}
 
 }
+
