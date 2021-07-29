@@ -33,6 +33,12 @@ public class ArrayClass {
 		numbers3[0][0] = 1; 
 		// deepToString must be used with this type of array in order to display its values
 		System.out.println(Arrays.deepToString(numbers3));
+
+		int [][][] numbers4 = new int[2][3][5];
+
+												// rows
+		int [][] numbers5 = {{1, 2, 3}, {4, 5 6}};
+		System.out.println(Arrays.deepToString(numbers5));
 	}
 
 }
