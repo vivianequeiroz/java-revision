@@ -44,6 +44,12 @@ public class Variables {
 		// point2 and point1 are variables that references the addres of Point obj
 		point1.x = 2;
 		System.out.println(point2);
+		
+		
+				//Constants
+		
+		//Use of 'F' to indicate this number is a float since by default Java compiler see it as a double
+		float pi = 3.14F; 
 	}
 
 }
