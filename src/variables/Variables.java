@@ -10,7 +10,7 @@ public class Variables {
 		byte age = 21; 
 		//up to 127
 		long viewsCount = 3_123_456_789L; 
-		//up to 2Billion, needs the "L" at the end so Java can reconize it as a long not an integer
+		//up to 2Billion, needs the "L" at the end so Java can recognize it as a long not an integer
 		//big numbers can be separated by underscores to facilitate reading
 		float price = 9.99F;
 		//double is too big to store this value so as it occurs with long, the F at the end indicates its a float number
@@ -41,7 +41,7 @@ public class Variables {
 		// The variable point1 holds the address to the object Point(1, 2) in the memory
 		Point point1 = new Point(1, 2);
 		Point point2 = point1;
-		// point2 and point1 are variables that references the addres of Point obj
+		// point2 and point1 are variables that references the address of Point object
 		point1.x = 2;
 		System.out.println(point2);
 		
@@ -50,7 +50,8 @@ public class Variables {
 		
 		//Use of 'F' to indicate this number is a float since by default Java compiler see it as a double
 		float pi = 3.14F; 
+		// final indicates its a constant and its value can't be changed 
+		final float piConstant = 3.14F;
 	}
 
 }
-// 50:43 https://www.youtube.com/watch?v=eIrMbAQSU34
