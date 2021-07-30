@@ -1,8 +1,8 @@
-package arrays;
+package arraysTest;
 
 import java.util.Arrays;
 
-public class ArrayClass {
+public class ArrayTest {
 
 	public static void main(String[] args) {
 		// Since its a reference type, the new operator + array type are necessary
