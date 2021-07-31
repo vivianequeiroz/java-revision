@@ -21,7 +21,7 @@ public class WhileLoops {
 		//Since input is a reference type (String) it's not possible to use comparison operators since they're
 		//going to compare the address of the string object
 		//So even if you have to string with the same name, its not possible to compare with == because they will be stored in different address
-		while (input.equals("quit")) {
+		while (!input.equals("quit")) {
 			System.out.print("Input: ");
 			input = scanner.next().toLowerCase();
 			System.out.println(input);
