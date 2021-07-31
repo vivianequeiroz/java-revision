@@ -10,7 +10,7 @@ public class SwitchStatements {
 				System.out.println("You're an admin.");
 				break;
 				
-			case "mdoerator":
+			case "moderator":
 				System.out.println("You're a moderator.");
 				break;
 				
