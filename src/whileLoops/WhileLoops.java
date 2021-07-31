@@ -25,7 +25,7 @@ public class WhileLoops {
 			System.out.print("Input: ");
 			input = scanner.next().toLowerCase();
 			System.out.println(input);
-		}
+ 		}
 	}
 
 }
