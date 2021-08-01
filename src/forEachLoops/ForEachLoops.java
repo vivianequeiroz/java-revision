@@ -9,7 +9,7 @@ public class ForEachLoops {
 
 		//the variable type of loops is the same of the array/collection
 		//Limitations: an array can't be iterated from the end to the beginning 
-					// the index of the variable created can't be accessable
+					// the index of the variable created can't be accessible
 		for (String fruit : fruits) {
 			System.out.println(fruit);
 		}
