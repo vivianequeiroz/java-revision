@@ -4,7 +4,7 @@ public class TestThisKeyword {
 
 	public static void main(String[] args) {
 		
-		//Used to reference attributes and methods from the class
+		//Used to reference attributes and methods from the class 
 		
 		//#1
 		ThisKeyword classVariables = new ThisKeyword(5);
